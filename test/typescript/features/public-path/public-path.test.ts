@@ -7,12 +7,12 @@ const scripts = Scripts.setupProjectFromTemplate({
   projectType: 'typescript',
 });
 
-describe.each(['prod'] as const)('public path [%s]', mode => {
+describe.each(['prod', 'dev'] as const)('public path [%s]', mode => {
   const publicPath = 'http://some-public-path/';
 
   forwaradRequestsFromPublicPathToRealStatics();
 
-  it.only('overrides public path by YOSHI_PUBLIC_PATH env var', async () => {
+  it('overrides public path by YOSHI_PUBLIC_PATH env var', async () => {
     await scripts[mode](
       async () => {
         await page.goto(scripts.serverUrl);
@@ -44,6 +44,8 @@ describe.each(['prod'] as const)('public path [%s]', mode => {
         }
       });
     });
+
+    afterEach(() => jestPuppeteer.resetPage());
 
     afterAll(() => page.setRequestInterception(false));
   }
