@@ -1,17 +1,5 @@
 import React from 'react';
 
-export default class Component extends React.Component {
-  state = {
-    text: ''
-  }
-
-  componentDidMount() {
-    import('./text').then(({ text }) => this.setState({ text }))
-  }
-
-  render() {
-    return (
-      <div id="component">{this.state.text}</div>
-    )
-  }
+export default function() {
+  return <div id="component">{__webpack_public_path__}</div>
 }

@@ -78,7 +78,8 @@
         "import/no-extraneous-dependencies": 0
       },
       "globals": {
-        "jestPuppeteer": false
+        "jestPuppeteer": false,
+        "__webpack_public_path__": false
       }
     },
     {
