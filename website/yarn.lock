@@ -2,711 +2,776 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@7.5.5", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
+"@babel/code-frame@7.5.5":
   version "7.5.5"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
   integrity sha1-vAeC9tafe31JUxIZaZuYj2aaj50=
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.7.4":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/core/-/core-7.7.7.tgz#ee155d2e12300bcc0cff6a8ad46f2af5063803e9"
-  integrity sha1-7hVdLhIwC8wM/2qK1G8q9QY4A+k=
+"@babel/code-frame@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
+  integrity sha1-M+JZA9dIEYFTThLsCiXxa2/PQZ4=
   dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/generator" "^7.7.7"
-    "@babel/helpers" "^7.7.4"
-    "@babel/parser" "^7.7.7"
-    "@babel/template" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/highlight" "^7.8.3"
+
+"@babel/compat-data@^7.8.4":
+  version "7.8.5"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/compat-data/-/compat-data-7.8.5.tgz#d28ce872778c23551cbb9432fc68d28495b613b9"
+  integrity sha1-0ozocneMI1Ucu5Qy/GjShJW2E7k=
+  dependencies:
+    browserslist "^4.8.5"
+    invariant "^2.2.4"
+    semver "^5.5.0"
+
+"@babel/core@^7.7.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/core/-/core-7.8.4.tgz#d496799e5c12195b3602d0fddd77294e3e38e80e"
+  integrity sha1-1JZ5nlwSGVs2AtD93XcpTj446A4=
+  dependencies:
+    "@babel/code-frame" "^7.8.3"
+    "@babel/generator" "^7.8.4"
+    "@babel/helpers" "^7.8.4"
+    "@babel/parser" "^7.8.4"
+    "@babel/template" "^7.8.3"
+    "@babel/traverse" "^7.8.4"
+    "@babel/types" "^7.8.3"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
+    gensync "^1.0.0-beta.1"
     json5 "^2.1.0"
     lodash "^4.17.13"
     resolve "^1.3.2"
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.7.4", "@babel/generator@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/generator/-/generator-7.7.7.tgz#859ac733c44c74148e1a72980a64ec84b85f4f45"
-  integrity sha1-hZrHM8RMdBSOGnKYCmTshLhfT0U=
+"@babel/generator@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/generator/-/generator-7.8.4.tgz#35bbc74486956fe4251829f9f6c48330e8d0985e"
+  integrity sha1-NbvHRIaVb+QlGCn59sSDMOjQmF4=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
     jsesc "^2.5.1"
     lodash "^4.17.13"
     source-map "^0.5.0"
 
-"@babel/helper-annotate-as-pure@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.7.4.tgz#bb3faf1e74b74bd547e867e48f551fa6b098b6ce"
-  integrity sha1-uz+vHnS3S9VH6Gfkj1UfprCYts4=
+"@babel/helper-annotate-as-pure@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.8.3.tgz#60bc0bc657f63a0924ff9a4b4a0b24a13cf4deee"
+  integrity sha1-YLwLxlf2Ogkk/5pLSgskoTz03u4=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-builder-binary-assignment-operator-visitor@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.7.4.tgz#5f73f2b28580e224b5b9bd03146a4015d6217f5f"
-  integrity sha1-X3PysoWA4iS1ub0DFGpAFdYhf18=
+"@babel/helper-builder-binary-assignment-operator-visitor@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.8.3.tgz#c84097a427a061ac56a1c30ebf54b7b22d241503"
+  integrity sha1-yECXpCegYaxWocMOv1S3si0kFQM=
   dependencies:
-    "@babel/helper-explode-assignable-expression" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-explode-assignable-expression" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-builder-react-jsx@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-builder-react-jsx/-/helper-builder-react-jsx-7.7.4.tgz#da188d247508b65375b2c30cf59de187be6b0c66"
-  integrity sha1-2hiNJHUItlN1ssMM9Z3hh75rDGY=
+"@babel/helper-builder-react-jsx@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-builder-react-jsx/-/helper-builder-react-jsx-7.8.3.tgz#dee98d7d79cc1f003d80b76fe01c7f8945665ff6"
+  integrity sha1-3umNfXnMHwA9gLdv4Bx/iUVmX/Y=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
     esutils "^2.0.0"
 
-"@babel/helper-call-delegate@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-call-delegate/-/helper-call-delegate-7.7.4.tgz#621b83e596722b50c0066f9dc37d3232e461b801"
-  integrity sha1-YhuD5ZZyK1DABm+dw30yMuRhuAE=
+"@babel/helper-call-delegate@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-call-delegate/-/helper-call-delegate-7.8.3.tgz#de82619898aa605d409c42be6ffb8d7204579692"
+  integrity sha1-3oJhmJiqYF1AnEK+b/uNcgRXlpI=
   dependencies:
-    "@babel/helper-hoist-variables" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-hoist-variables" "^7.8.3"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-create-class-features-plugin@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.7.4.tgz#fce60939fd50618610942320a8d951b3b639da2d"
-  integrity sha1-/OYJOf1QYYYQlCMgqNlRs7Y52i0=
+"@babel/helper-compilation-targets@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-compilation-targets/-/helper-compilation-targets-7.8.4.tgz#03d7ecd454b7ebe19a254f76617e61770aed2c88"
+  integrity sha1-A9fs1FS36+GaJU92YX5hdwrtLIg=
   dependencies:
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/helper-member-expression-to-functions" "^7.7.4"
-    "@babel/helper-optimise-call-expression" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-replace-supers" "^7.7.4"
-    "@babel/helper-split-export-declaration" "^7.7.4"
+    "@babel/compat-data" "^7.8.4"
+    browserslist "^4.8.5"
+    invariant "^2.2.4"
+    levenary "^1.1.1"
+    semver "^5.5.0"
 
-"@babel/helper-create-regexp-features-plugin@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.7.4.tgz#6d5762359fd34f4da1500e4cff9955b5299aaf59"
-  integrity sha1-bVdiNZ/TT02hUA5M/5lVtSmar1k=
+"@babel/helper-create-class-features-plugin@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.8.3.tgz#5b94be88c255f140fd2c10dd151e7f98f4bff397"
+  integrity sha1-W5S+iMJV8UD9LBDdFR5/mPS/85c=
   dependencies:
-    "@babel/helper-regex" "^7.4.4"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/helper-member-expression-to-functions" "^7.8.3"
+    "@babel/helper-optimise-call-expression" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-replace-supers" "^7.8.3"
+    "@babel/helper-split-export-declaration" "^7.8.3"
+
+"@babel/helper-create-regexp-features-plugin@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.8.3.tgz#c774268c95ec07ee92476a3862b75cc2839beb79"
+  integrity sha1-x3QmjJXsB+6SR2o4YrdcwoOb63k=
+  dependencies:
+    "@babel/helper-regex" "^7.8.3"
     regexpu-core "^4.6.0"
 
-"@babel/helper-define-map@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-define-map/-/helper-define-map-7.7.4.tgz#2841bf92eb8bd9c906851546fe6b9d45e162f176"
-  integrity sha1-KEG/kuuL2ckGhRVG/mudReFi8XY=
+"@babel/helper-define-map@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-define-map/-/helper-define-map-7.8.3.tgz#a0655cad5451c3760b726eba875f1cd8faa02c15"
+  integrity sha1-oGVcrVRRw3YLcm66h18c2PqgLBU=
   dependencies:
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/types" "^7.8.3"
     lodash "^4.17.13"
 
-"@babel/helper-explode-assignable-expression@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-explode-assignable-expression/-/helper-explode-assignable-expression-7.7.4.tgz#fa700878e008d85dc51ba43e9fb835cddfe05c84"
-  integrity sha1-+nAIeOAI2F3FG6Q+n7g1zd/gXIQ=
+"@babel/helper-explode-assignable-expression@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-explode-assignable-expression/-/helper-explode-assignable-expression-7.8.3.tgz#a728dc5b4e89e30fc2dfc7d04fa28a930653f982"
+  integrity sha1-pyjcW06J4w/C38fQT6KKkwZT+YI=
   dependencies:
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-function-name@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-function-name/-/helper-function-name-7.7.4.tgz#ab6e041e7135d436d8f0a3eca15de5b67a341a2e"
-  integrity sha1-q24EHnE11DbY8KPsoV3ltno0Gi4=
+"@babel/helper-function-name@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-function-name/-/helper-function-name-7.8.3.tgz#eeeb665a01b1f11068e9fb86ad56a1cb1a824cca"
+  integrity sha1-7utmWgGx8RBo6fuGrVahyxqCTMo=
   dependencies:
-    "@babel/helper-get-function-arity" "^7.7.4"
-    "@babel/template" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-get-function-arity" "^7.8.3"
+    "@babel/template" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-get-function-arity@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-get-function-arity/-/helper-get-function-arity-7.7.4.tgz#cb46348d2f8808e632f0ab048172130e636005f0"
-  integrity sha1-y0Y0jS+ICOYy8KsEgXITDmNgBfA=
+"@babel/helper-get-function-arity@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-get-function-arity/-/helper-get-function-arity-7.8.3.tgz#b894b947bd004381ce63ea1db9f08547e920abd5"
+  integrity sha1-uJS5R70AQ4HOY+odufCFR+kgq9U=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-hoist-variables@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-hoist-variables/-/helper-hoist-variables-7.7.4.tgz#612384e3d823fdfaaf9fce31550fe5d4db0f3d12"
-  integrity sha1-YSOE49gj/fqvn84xVQ/l1NsPPRI=
+"@babel/helper-hoist-variables@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-hoist-variables/-/helper-hoist-variables-7.8.3.tgz#1dbe9b6b55d78c9b4183fc8cdc6e30ceb83b7134"
+  integrity sha1-Hb6ba1XXjJtBg/yM3G4wzrg7cTQ=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-member-expression-to-functions@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.7.4.tgz#356438e2569df7321a8326644d4b790d2122cb74"
-  integrity sha1-NWQ44lad9zIagyZkTUt5DSEiy3Q=
+"@babel/helper-member-expression-to-functions@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.8.3.tgz#659b710498ea6c1d9907e0c73f206eee7dadc24c"
+  integrity sha1-ZZtxBJjqbB2ZB+DHPyBu7n2twkw=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-module-imports@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-module-imports/-/helper-module-imports-7.7.4.tgz#e5a92529f8888bf319a6376abfbd1cebc491ad91"
-  integrity sha1-5aklKfiIi/MZpjdqv70c68SRrZE=
+"@babel/helper-module-imports@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-module-imports/-/helper-module-imports-7.8.3.tgz#7fe39589b39c016331b6b8c3f441e8f0b1419498"
+  integrity sha1-f+OVibOcAWMxtrjD9EHo8LFBlJg=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-module-transforms@^7.7.4", "@babel/helper-module-transforms@^7.7.5":
-  version "7.7.5"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-module-transforms/-/helper-module-transforms-7.7.5.tgz#d044da7ffd91ec967db25cd6748f704b6b244835"
-  integrity sha1-0ETaf/2R7JZ9slzWdI9wS2skSDU=
+"@babel/helper-module-transforms@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-module-transforms/-/helper-module-transforms-7.8.3.tgz#d305e35d02bee720fbc2c3c3623aa0c316c01590"
+  integrity sha1-0wXjXQK+5yD7wsPDYjqgwxbAFZA=
   dependencies:
-    "@babel/helper-module-imports" "^7.7.4"
-    "@babel/helper-simple-access" "^7.7.4"
-    "@babel/helper-split-export-declaration" "^7.7.4"
-    "@babel/template" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-module-imports" "^7.8.3"
+    "@babel/helper-simple-access" "^7.8.3"
+    "@babel/helper-split-export-declaration" "^7.8.3"
+    "@babel/template" "^7.8.3"
+    "@babel/types" "^7.8.3"
     lodash "^4.17.13"
 
-"@babel/helper-optimise-call-expression@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.7.4.tgz#034af31370d2995242aa4df402c3b7794b2dcdf2"
-  integrity sha1-A0rzE3DSmVJCqk30AsO3eUstzfI=
+"@babel/helper-optimise-call-expression@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.8.3.tgz#7ed071813d09c75298ef4f208956006b6111ecb9"
+  integrity sha1-ftBxgT0Jx1KY708giVYAa2ER7Lk=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-plugin-utils@^7.0.0":
-  version "7.0.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
-  integrity sha1-u7P77phmHFaQNCN8wDlnupm08lA=
+"@babel/helper-plugin-utils@^7.8.0", "@babel/helper-plugin-utils@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-plugin-utils/-/helper-plugin-utils-7.8.3.tgz#9ea293be19babc0f52ff8ca88b34c3611b208670"
+  integrity sha1-nqKTvhm6vA9S/4yoizTDYRsghnA=
 
-"@babel/helper-regex@^7.0.0", "@babel/helper-regex@^7.4.4":
-  version "7.5.5"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-regex/-/helper-regex-7.5.5.tgz#0aa6824f7100a2e0e89c1527c23936c152cab351"
-  integrity sha1-CqaCT3EAouDonBUnwjk2wVLKs1E=
+"@babel/helper-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-regex/-/helper-regex-7.8.3.tgz#139772607d51b93f23effe72105b319d2a4c6965"
+  integrity sha1-E5dyYH1RuT8j7/5yEFsxnSpMaWU=
   dependencies:
     lodash "^4.17.13"
 
-"@babel/helper-remap-async-to-generator@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.7.4.tgz#c68c2407350d9af0e061ed6726afb4fff16d0234"
-  integrity sha1-xowkBzUNmvDgYe1nJq+0//FtAjQ=
+"@babel/helper-remap-async-to-generator@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.8.3.tgz#273c600d8b9bf5006142c1e35887d555c12edd86"
+  integrity sha1-JzxgDYub9QBhQsHjWIfVVcEu3YY=
   dependencies:
-    "@babel/helper-annotate-as-pure" "^7.7.4"
-    "@babel/helper-wrap-function" "^7.7.4"
-    "@babel/template" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-annotate-as-pure" "^7.8.3"
+    "@babel/helper-wrap-function" "^7.8.3"
+    "@babel/template" "^7.8.3"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-replace-supers@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-replace-supers/-/helper-replace-supers-7.7.4.tgz#3c881a6a6a7571275a72d82e6107126ec9e2cdd2"
-  integrity sha1-PIgaamp1cSdactguYQcSbsnizdI=
+"@babel/helper-replace-supers@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-replace-supers/-/helper-replace-supers-7.8.3.tgz#91192d25f6abbcd41da8a989d4492574fb1530bc"
+  integrity sha1-kRktJfarvNQdqKmJ1EkldPsVMLw=
   dependencies:
-    "@babel/helper-member-expression-to-functions" "^7.7.4"
-    "@babel/helper-optimise-call-expression" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-member-expression-to-functions" "^7.8.3"
+    "@babel/helper-optimise-call-expression" "^7.8.3"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-simple-access@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-simple-access/-/helper-simple-access-7.7.4.tgz#a169a0adb1b5f418cfc19f22586b2ebf58a9a294"
-  integrity sha1-oWmgrbG19BjPwZ8iWGsuv1ipopQ=
+"@babel/helper-simple-access@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-simple-access/-/helper-simple-access-7.8.3.tgz#7f8109928b4dab4654076986af575231deb639ae"
+  integrity sha1-f4EJkotNq0ZUB2mGr1dSMd62Oa4=
   dependencies:
-    "@babel/template" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/template" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-split-export-declaration@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.7.4.tgz#57292af60443c4a3622cf74040ddc28e68336fd8"
-  integrity sha1-Vykq9gRDxKNiLPdAQN3Cjmgzb9g=
+"@babel/helper-split-export-declaration@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.8.3.tgz#31a9f30070f91368a7182cf05f831781065fc7a9"
+  integrity sha1-ManzAHD5E2inGCzwX4MXgQZfx6k=
   dependencies:
-    "@babel/types" "^7.7.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/helper-wrap-function@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-wrap-function/-/helper-wrap-function-7.7.4.tgz#37ab7fed5150e22d9d7266e830072c0cdd8baace"
-  integrity sha1-N6t/7VFQ4i2dcmboMAcsDN2Lqs4=
+"@babel/helper-wrap-function@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helper-wrap-function/-/helper-wrap-function-7.8.3.tgz#9dbdb2bb55ef14aaa01fe8c99b629bd5352d8610"
+  integrity sha1-nb2yu1XvFKqgH+jJm2Kb1TUthhA=
   dependencies:
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/template" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/template" "^7.8.3"
+    "@babel/traverse" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/helpers@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helpers/-/helpers-7.7.4.tgz#62c215b9e6c712dadc15a9a0dcab76c92a940302"
-  integrity sha1-YsIVuebHEtrcFamg3Kt2ySqUAwI=
+"@babel/helpers@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/helpers/-/helpers-7.8.4.tgz#754eb3ee727c165e0a240d6c207de7c455f36f73"
+  integrity sha1-dU6z7nJ8Fl4KJA1sIH3nxFXzb3M=
   dependencies:
-    "@babel/template" "^7.7.4"
-    "@babel/traverse" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/template" "^7.8.3"
+    "@babel/traverse" "^7.8.4"
+    "@babel/types" "^7.8.3"
 
-"@babel/highlight@^7.0.0":
-  version "7.5.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/highlight/-/highlight-7.5.0.tgz#56d11312bd9248fa619591d02472be6e8cb32540"
-  integrity sha1-VtETEr2SSPphlZHQJHK+boyzJUA=
+"@babel/highlight@^7.0.0", "@babel/highlight@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/highlight/-/highlight-7.8.3.tgz#28f173d04223eaaa59bc1d439a3836e6d1265797"
+  integrity sha1-KPFz0EIj6qpZvB1Dmjg25tEmV5c=
   dependencies:
     chalk "^2.0.0"
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.7.4", "@babel/parser@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.7.7.tgz#1b886595419cf92d811316d5b715a53ff38b4937"
-  integrity sha1-G4hllUGc+S2BExbVtxWlP/OLSTc=
+"@babel/parser@^7.8.3", "@babel/parser@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/parser/-/parser-7.8.4.tgz#d1dbe64691d60358a974295fa53da074dd2ce8e8"
+  integrity sha1-0dvmRpHWA1ipdClfpT2gdN0s6Og=
 
-"@babel/plugin-proposal-async-generator-functions@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.7.4.tgz#0351c5ac0a9e927845fffd5b82af476947b7ce6d"
-  integrity sha1-A1HFrAqeknhF//1bgq9HaUe3zm0=
+"@babel/plugin-proposal-async-generator-functions@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.8.3.tgz#bad329c670b382589721b27540c7d288601c6e6f"
+  integrity sha1-utMpxnCzgliXIbJ1QMfSiGAcbm8=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-remap-async-to-generator" "^7.7.4"
-    "@babel/plugin-syntax-async-generators" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-remap-async-to-generator" "^7.8.3"
+    "@babel/plugin-syntax-async-generators" "^7.8.0"
 
 "@babel/plugin-proposal-class-properties@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.7.4.tgz#2f964f0cb18b948450362742e33e15211e77c2ba"
-  integrity sha1-L5ZPDLGLlIRQNidC4z4VIR53wro=
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.8.3.tgz#5e06654af5cd04b608915aada9b2a6788004464e"
+  integrity sha1-XgZlSvXNBLYIkVqtqbKmeIAERk4=
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-create-class-features-plugin" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-proposal-dynamic-import@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.7.4.tgz#dde64a7f127691758cbfed6cf70de0fa5879d52d"
-  integrity sha1-3eZKfxJ2kXWMv+1s9w3g+lh51S0=
+"@babel/plugin-proposal-dynamic-import@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.8.3.tgz#38c4fe555744826e97e2ae930b0fb4cc07e66054"
+  integrity sha1-OMT+VVdEgm6X4q6TCw+0zAfmYFQ=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.0"
 
-"@babel/plugin-proposal-json-strings@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.7.4.tgz#7700a6bfda771d8dc81973249eac416c6b4c697d"
-  integrity sha1-dwCmv9p3HY3IGXMknqxBbGtMaX0=
+"@babel/plugin-proposal-json-strings@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.8.3.tgz#da5216b238a98b58a1e05d6852104b10f9a70d6b"
+  integrity sha1-2lIWsjipi1ih4F1oUhBLEPmnDWs=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-json-strings" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-json-strings" "^7.8.0"
 
-"@babel/plugin-proposal-object-rest-spread@^7.7.4", "@babel/plugin-proposal-object-rest-spread@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.7.7.tgz#9f27075004ab99be08c5c1bd653a2985813cb370"
-  integrity sha1-nycHUASrmb4IxcG9ZTophYE8s3A=
+"@babel/plugin-proposal-nullish-coalescing-operator@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.8.3.tgz#e4572253fdeed65cddeecfdab3f928afeb2fd5d2"
+  integrity sha1-5FciU/3u1lzd7s/as/kor+sv1dI=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-object-rest-spread" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.0"
 
-"@babel/plugin-proposal-optional-catch-binding@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.7.4.tgz#ec21e8aeb09ec6711bc0a39ca49520abee1de379"
-  integrity sha1-7CHorrCexnEbwKOcpJUgq+4d43k=
+"@babel/plugin-proposal-object-rest-spread@^7.7.4", "@babel/plugin-proposal-object-rest-spread@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.8.3.tgz#eb5ae366118ddca67bed583b53d7554cad9951bb"
+  integrity sha1-61rjZhGN3KZ77Vg7U9dVTK2ZUbs=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-optional-catch-binding" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.0"
 
-"@babel/plugin-proposal-unicode-property-regex@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.7.7.tgz#433fa9dac64f953c12578b29633f456b68831c4e"
-  integrity sha1-Qz+p2sZPlTwSV4spYz9Fa2iDHE4=
+"@babel/plugin-proposal-optional-catch-binding@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-optional-catch-binding/-/plugin-proposal-optional-catch-binding-7.8.3.tgz#9dee96ab1650eed88646ae9734ca167ac4a9c5c9"
+  integrity sha1-ne6WqxZQ7tiGRq6XNMoWesSpxck=
   dependencies:
-    "@babel/helper-create-regexp-features-plugin" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.0"
 
-"@babel/plugin-syntax-async-generators@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.7.4.tgz#331aaf310a10c80c44a66b238b6e49132bd3c889"
-  integrity sha1-MxqvMQoQyAxEpmsji25JEyvTyIk=
+"@babel/plugin-proposal-optional-chaining@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.8.3.tgz#ae10b3214cb25f7adb1f3bc87ba42ca10b7e2543"
+  integrity sha1-rhCzIUyyX3rbHzvIe6QsoQt+JUM=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.0"
 
-"@babel/plugin-syntax-dynamic-import@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.7.4.tgz#29ca3b4415abfe4a5ec381e903862ad1a54c3aec"
-  integrity sha1-Kco7RBWr/kpew4HpA4Yq0aVMOuw=
+"@babel/plugin-proposal-unicode-property-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.8.3.tgz#b646c3adea5f98800c9ab45105ac34d06cd4a47f"
+  integrity sha1-tkbDrepfmIAMmrRRBaw00GzUpH8=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-create-regexp-features-plugin" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-syntax-json-strings@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.7.4.tgz#86e63f7d2e22f9e27129ac4e83ea989a382e86cc"
-  integrity sha1-huY/fS4i+eJxKaxOg+qYmjguhsw=
+"@babel/plugin-syntax-async-generators@^7.8.0":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
+  integrity sha1-qYP7Gusuw/btBCohD2QOkOeG/g0=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-jsx@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.7.4.tgz#dab2b56a36fb6c3c222a1fbc71f7bf97f327a9ec"
-  integrity sha1-2rK1ajb7bDwiKh+8cfe/l/Mnqew=
+"@babel/plugin-syntax-dynamic-import@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz#62bf98b2da3cd21d626154fc96ee5b3cb68eacb3"
+  integrity sha1-Yr+Ysto80h1iYVT8lu5bPLaOrLM=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-object-rest-spread@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.7.4.tgz#47cf220d19d6d0d7b154304701f468fc1cc6ff46"
-  integrity sha1-R88iDRnW0NexVDBHAfRo/BzG/0Y=
+"@babel/plugin-syntax-json-strings@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz#01ca21b668cd8218c9e640cb6dd88c5412b2c96a"
+  integrity sha1-AcohtmjNghjJ5kDLbdiMVBKyyWo=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-optional-catch-binding@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.7.4.tgz#a3e38f59f4b6233867b4a92dcb0ee05b2c334aa6"
-  integrity sha1-o+OPWfS2IzhntKktyw7gWywzSqY=
+"@babel/plugin-syntax-jsx@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.8.3.tgz#521b06c83c40480f1e58b4fd33b92eceb1d6ea94"
+  integrity sha1-UhsGyDxASA8eWLT9M7kuzrHW6pQ=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-syntax-top-level-await@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.7.4.tgz#bd7d8fa7b9fee793a36e4027fd6dd1aa32f946da"
-  integrity sha1-vX2Pp7n+55OjbkAn/W3RqjL5Rto=
+"@babel/plugin-syntax-nullish-coalescing-operator@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz#167ed70368886081f74b5c36c65a88c03b66d1a9"
+  integrity sha1-Fn7XA2iIYIH3S1w2xlqIwDtm0ak=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-transform-arrow-functions@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.7.4.tgz#76309bd578addd8aee3b379d809c802305a98a12"
-  integrity sha1-djCb1Xit3YruOzedgJyAIwWpihI=
+"@babel/plugin-syntax-object-rest-spread@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
+  integrity sha1-YOIl7cvZimQDMqLnLdPmbxr1WHE=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-transform-async-to-generator@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.7.4.tgz#694cbeae6d613a34ef0292713fa42fb45c4470ba"
-  integrity sha1-aUy+rm1hOjTvApJxP6QvtFxEcLo=
+"@babel/plugin-syntax-optional-catch-binding@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz#6111a265bcfb020eb9efd0fdfd7d26402b9ed6c1"
+  integrity sha1-YRGiZbz7Ag6579D9/X0mQCue1sE=
   dependencies:
-    "@babel/helper-module-imports" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-remap-async-to-generator" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-transform-block-scoped-functions@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.7.4.tgz#d0d9d5c269c78eaea76227ace214b8d01e4d837b"
-  integrity sha1-0NnVwmnHjq6nYies4hS40B5Ng3s=
+"@babel/plugin-syntax-optional-chaining@^7.8.0":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
+  integrity sha1-T2nCq5UWfgGAzVM2YT+MV4j31Io=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-transform-block-scoping@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.7.4.tgz#200aad0dcd6bb80372f94d9e628ea062c58bf224"
-  integrity sha1-IAqtDc1ruANy+U2eYo6gYsWL8iQ=
+"@babel/plugin-syntax-top-level-await@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.8.3.tgz#3acdece695e6b13aaf57fc291d1a800950c71391"
+  integrity sha1-Os3s5pXmsTqvV/wpHRqACVDHE5E=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
+
+"@babel/plugin-transform-arrow-functions@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.8.3.tgz#82776c2ed0cd9e1a49956daeb896024c9473b8b6"
+  integrity sha1-gndsLtDNnhpJlW2uuJYCTJRzuLY=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
+
+"@babel/plugin-transform-async-to-generator@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.8.3.tgz#4308fad0d9409d71eafb9b1a6ee35f9d64b64086"
+  integrity sha1-Qwj60NlAnXHq+5sabuNfnWS2QIY=
+  dependencies:
+    "@babel/helper-module-imports" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-remap-async-to-generator" "^7.8.3"
+
+"@babel/plugin-transform-block-scoped-functions@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.8.3.tgz#437eec5b799b5852072084b3ae5ef66e8349e8a3"
+  integrity sha1-Q37sW3mbWFIHIISzrl72boNJ6KM=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
+
+"@babel/plugin-transform-block-scoping@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.8.3.tgz#97d35dab66857a437c166358b91d09050c868f3a"
+  integrity sha1-l9Ndq2aFekN8FmNYuR0JBQyGjzo=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
     lodash "^4.17.13"
 
-"@babel/plugin-transform-classes@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-classes/-/plugin-transform-classes-7.7.4.tgz#c92c14be0a1399e15df72667067a8f510c9400ec"
-  integrity sha1-ySwUvgoTmeFd9yZnBnqPUQyUAOw=
+"@babel/plugin-transform-classes@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-classes/-/plugin-transform-classes-7.8.3.tgz#46fd7a9d2bb9ea89ce88720477979fe0d71b21b8"
+  integrity sha1-Rv16nSu56onOiHIEd5ef4NcbIbg=
   dependencies:
-    "@babel/helper-annotate-as-pure" "^7.7.4"
-    "@babel/helper-define-map" "^7.7.4"
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/helper-optimise-call-expression" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-replace-supers" "^7.7.4"
-    "@babel/helper-split-export-declaration" "^7.7.4"
+    "@babel/helper-annotate-as-pure" "^7.8.3"
+    "@babel/helper-define-map" "^7.8.3"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/helper-optimise-call-expression" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-replace-supers" "^7.8.3"
+    "@babel/helper-split-export-declaration" "^7.8.3"
     globals "^11.1.0"
 
-"@babel/plugin-transform-computed-properties@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.7.4.tgz#e856c1628d3238ffe12d668eb42559f79a81910d"
-  integrity sha1-6FbBYo0yOP/hLWaOtCVZ95qBkQ0=
+"@babel/plugin-transform-computed-properties@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.8.3.tgz#96d0d28b7f7ce4eb5b120bb2e0e943343c86f81b"
+  integrity sha1-ltDSi3985OtbEguy4OlDNDyG+Bs=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-destructuring@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.7.4.tgz#2b713729e5054a1135097b6a67da1b6fe8789267"
-  integrity sha1-K3E3KeUFShE1CXtqZ9obb+h4kmc=
+"@babel/plugin-transform-destructuring@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.8.3.tgz#20ddfbd9e4676906b1056ee60af88590cc7aaa0b"
+  integrity sha1-IN372eRnaQaxBW7mCviFkMx6qgs=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-dotall-regex@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.7.7.tgz#3e9713f1b69f339e87fa796b097d73ded16b937b"
-  integrity sha1-PpcT8bafM56H+nlrCX1z3tFrk3s=
+"@babel/plugin-transform-dotall-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.8.3.tgz#c3c6ec5ee6125c6993c5cbca20dc8621a9ea7a6e"
+  integrity sha1-w8bsXuYSXGmTxcvKINyGIanqem4=
   dependencies:
-    "@babel/helper-create-regexp-features-plugin" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-create-regexp-features-plugin" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-duplicate-keys@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.7.4.tgz#3d21731a42e3f598a73835299dd0169c3b90ac91"
-  integrity sha1-PSFzGkLj9ZinODUpndAWnDuQrJE=
+"@babel/plugin-transform-duplicate-keys@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.8.3.tgz#8d12df309aa537f272899c565ea1768e286e21f1"
+  integrity sha1-jRLfMJqlN/JyiZxWXqF2jihuIfE=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-exponentiation-operator@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.7.4.tgz#dd30c0191e3a1ba19bcc7e389bdfddc0729d5db9"
-  integrity sha1-3TDAGR46G6GbzH44m9/dwHKdXbk=
+"@babel/plugin-transform-exponentiation-operator@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.8.3.tgz#581a6d7f56970e06bf51560cd64f5e947b70d7b7"
+  integrity sha1-WBptf1aXDga/UVYM1k9elHtw17c=
   dependencies:
-    "@babel/helper-builder-binary-assignment-operator-visitor" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-builder-binary-assignment-operator-visitor" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-for-of@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.7.4.tgz#248800e3a5e507b1f103d8b4ca998e77c63932bc"
-  integrity sha1-JIgA46XlB7HxA9i0ypmOd8Y5Mrw=
+"@babel/plugin-transform-for-of@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.8.4.tgz#6fe8eae5d6875086ee185dd0b098a8513783b47d"
+  integrity sha1-b+jq5daHUIbuGF3QsJioUTeDtH0=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-function-name@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.7.4.tgz#75a6d3303d50db638ff8b5385d12451c865025b1"
-  integrity sha1-dabTMD1Q22OP+LU4XRJFHIZQJbE=
+"@babel/plugin-transform-function-name@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.8.3.tgz#279373cb27322aaad67c2683e776dfc47196ed8b"
+  integrity sha1-J5NzyycyKqrWfCaD53bfxHGW7Ys=
   dependencies:
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-literals@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-literals/-/plugin-transform-literals-7.7.4.tgz#27fe87d2b5017a2a5a34d1c41a6b9f6a6262643e"
-  integrity sha1-J/6H0rUBeipaNNHEGmufamJiZD4=
+"@babel/plugin-transform-literals@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-literals/-/plugin-transform-literals-7.8.3.tgz#aef239823d91994ec7b68e55193525d76dbd5dc1"
+  integrity sha1-rvI5gj2RmU7Hto5VGTUl1229XcE=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-member-expression-literals@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.7.4.tgz#aee127f2f3339fc34ce5e3055d7ffbf7aa26f19a"
-  integrity sha1-ruEn8vMzn8NM5eMFXX/796om8Zo=
+"@babel/plugin-transform-member-expression-literals@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.8.3.tgz#963fed4b620ac7cbf6029c755424029fa3a40410"
+  integrity sha1-lj/tS2IKx8v2Apx1VCQCn6OkBBA=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-modules-amd@^7.7.5":
-  version "7.7.5"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.7.5.tgz#39e0fb717224b59475b306402bb8eedab01e729c"
-  integrity sha1-OeD7cXIktZR1swZAK7ju2rAecpw=
+"@babel/plugin-transform-modules-amd@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.8.3.tgz#65606d44616b50225e76f5578f33c568a0b876a5"
+  integrity sha1-ZWBtRGFrUCJedvVXjzPFaKC4dqU=
   dependencies:
-    "@babel/helper-module-transforms" "^7.7.5"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-module-transforms" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-commonjs@^7.7.5":
-  version "7.7.5"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.7.5.tgz#1d27f5eb0bcf7543e774950e5b2fa782e637b345"
-  integrity sha1-HSf16wvPdUPndJUOWy+nguY3s0U=
+"@babel/plugin-transform-modules-commonjs@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.8.3.tgz#df251706ec331bd058a34bdd72613915f82928a5"
+  integrity sha1-3yUXBuwzG9BYo0vdcmE5FfgpKKU=
   dependencies:
-    "@babel/helper-module-transforms" "^7.7.5"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-simple-access" "^7.7.4"
+    "@babel/helper-module-transforms" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-simple-access" "^7.8.3"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-systemjs@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.7.4.tgz#cd98152339d3e763dfe838b7d4273edaf520bb30"
-  integrity sha1-zZgVIznT52Pf6Di31Cc+2vUguzA=
+"@babel/plugin-transform-modules-systemjs@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.8.3.tgz#d8bbf222c1dbe3661f440f2f00c16e9bb7d0d420"
+  integrity sha1-2LvyIsHb42YfRA8vAMFum7fQ1CA=
   dependencies:
-    "@babel/helper-hoist-variables" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-hoist-variables" "^7.8.3"
+    "@babel/helper-module-transforms" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-umd@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.7.4.tgz#1027c355a118de0aae9fee00ad7813c584d9061f"
-  integrity sha1-ECfDVaEY3gqun+4ArXgTxYTZBh8=
+"@babel/plugin-transform-modules-umd@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.8.3.tgz#592d578ce06c52f5b98b02f913d653ffe972661a"
+  integrity sha1-WS1XjOBsUvW5iwL5E9ZT/+lyZho=
   dependencies:
-    "@babel/helper-module-transforms" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-module-transforms" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-named-capturing-groups-regex@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.7.4.tgz#fb3bcc4ee4198e7385805007373d6b6f42c98220"
-  integrity sha1-+zvMTuQZjnOFgFAHNz1rb0LJgiA=
+"@babel/plugin-transform-named-capturing-groups-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.8.3.tgz#a2a72bffa202ac0e2d0506afd0939c5ecbc48c6c"
+  integrity sha1-oqcr/6ICrA4tBQav0JOcXsvEjGw=
   dependencies:
-    "@babel/helper-create-regexp-features-plugin" "^7.7.4"
+    "@babel/helper-create-regexp-features-plugin" "^7.8.3"
 
-"@babel/plugin-transform-new-target@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.7.4.tgz#4a0753d2d60639437be07b592a9e58ee00720167"
-  integrity sha1-SgdT0tYGOUN74HtZKp5Y7gByAWc=
+"@babel/plugin-transform-new-target@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.8.3.tgz#60cc2ae66d85c95ab540eb34babb6434d4c70c43"
+  integrity sha1-YMwq5m2FyVq1QOs0urtkNNTHDEM=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-object-super@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.7.4.tgz#48488937a2d586c0148451bf51af9d7dda567262"
-  integrity sha1-SEiJN6LVhsAUhFG/Ua+dfdpWcmI=
+"@babel/plugin-transform-object-super@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.8.3.tgz#ebb6a1e7a86ffa96858bd6ac0102d65944261725"
+  integrity sha1-67ah56hv+paFi9asAQLWWUQmFyU=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-replace-supers" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-replace-supers" "^7.8.3"
 
-"@babel/plugin-transform-parameters@^7.7.7":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.7.7.tgz#7a884b2460164dc5f194f668332736584c760007"
-  integrity sha1-eohLJGAWTcXxlPZoMyc2WEx2AAc=
+"@babel/plugin-transform-parameters@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.8.4.tgz#1d5155de0b65db0ccf9971165745d3bb990d77d3"
+  integrity sha1-HVFV3gtl2wzPmXEWV0XTu5kNd9M=
   dependencies:
-    "@babel/helper-call-delegate" "^7.7.4"
-    "@babel/helper-get-function-arity" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-call-delegate" "^7.8.3"
+    "@babel/helper-get-function-arity" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-property-literals@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.7.4.tgz#2388d6505ef89b266103f450f9167e6bd73f98c2"
-  integrity sha1-I4jWUF74myZhA/RQ+RZ+a9c/mMI=
+"@babel/plugin-transform-property-literals@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.8.3.tgz#33194300d8539c1ed28c62ad5087ba3807b98263"
+  integrity sha1-MxlDANhTnB7SjGKtUIe6OAe5gmM=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-react-display-name@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.7.4.tgz#9f2b80b14ebc97eef4a9b29b612c58ed9c0d10dd"
-  integrity sha1-nyuAsU68l+70qbKbYSxY7ZwNEN0=
+"@babel/plugin-transform-react-display-name@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.8.3.tgz#70ded987c91609f78353dd76d2fb2a0bb991e8e5"
+  integrity sha1-cN7Zh8kWCfeDU9120vsqC7mR6OU=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-react-jsx-self@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.7.4.tgz#81b8fbfd14b2215e8f1c2c3adfba266127b0231c"
-  integrity sha1-gbj7/RSyIV6PHCw637omYSewIxw=
+"@babel/plugin-transform-react-jsx-self@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.8.3.tgz#c4f178b2aa588ecfa8d077ea80d4194ee77ed702"
+  integrity sha1-xPF4sqpYjs+o0HfqgNQZTud+1wI=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-jsx" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-jsx" "^7.8.3"
 
-"@babel/plugin-transform-react-jsx-source@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.7.4.tgz#8994b1bf6014b133f5a46d3b7d1ee5f5e3e72c10"
-  integrity sha1-iZSxv2AUsTP1pG07fR7l9ePnLBA=
+"@babel/plugin-transform-react-jsx-source@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.8.3.tgz#951e75a8af47f9f120db731be095d2b2c34920e0"
+  integrity sha1-lR51qK9H+fEg23Mb4JXSssNJIOA=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-jsx" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-jsx" "^7.8.3"
 
-"@babel/plugin-transform-react-jsx@^7.7.4":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.7.7.tgz#5cbaa7445b4a09f774029f3cc7bb448ff3122a5d"
-  integrity sha1-XLqnRFtKCfd0Ap88x7tEj/MSKl0=
+"@babel/plugin-transform-react-jsx@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.8.3.tgz#4220349c0390fdefa505365f68c103562ab2fc4a"
+  integrity sha1-QiA0nAOQ/e+lBTZfaMEDViqy/Eo=
   dependencies:
-    "@babel/helper-builder-react-jsx" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-syntax-jsx" "^7.7.4"
+    "@babel/helper-builder-react-jsx" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-syntax-jsx" "^7.8.3"
 
-"@babel/plugin-transform-regenerator@^7.7.5":
-  version "7.7.5"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.7.5.tgz#3a8757ee1a2780f390e89f246065ecf59c26fce9"
-  integrity sha1-OodX7hongPOQ6J8kYGXs9Zwm/Ok=
+"@babel/plugin-transform-regenerator@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.8.3.tgz#b31031e8059c07495bf23614c97f3d9698bc6ec8"
+  integrity sha1-sxAx6AWcB0lb8jYUyX89lpi8bsg=
   dependencies:
     regenerator-transform "^0.14.0"
 
-"@babel/plugin-transform-reserved-words@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.7.4.tgz#6a7cf123ad175bb5c69aec8f6f0770387ed3f1eb"
-  integrity sha1-anzxI60XW7XGmuyPbwdwOH7T8es=
+"@babel/plugin-transform-reserved-words@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.8.3.tgz#9a0635ac4e665d29b162837dd3cc50745dfdf1f5"
+  integrity sha1-mgY1rE5mXSmxYoN908xQdF398fU=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-shorthand-properties@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.7.4.tgz#74a0a9b2f6d67a684c6fbfd5f0458eb7ba99891e"
-  integrity sha1-dKCpsvbWemhMb7/V8EWOt7qZiR4=
+"@babel/plugin-transform-shorthand-properties@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.8.3.tgz#28545216e023a832d4d3a1185ed492bcfeac08c8"
+  integrity sha1-KFRSFuAjqDLU06EYXtSSvP6sCMg=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-spread@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-spread/-/plugin-transform-spread-7.7.4.tgz#aa673b356fe6b7e70d69b6e33a17fef641008578"
-  integrity sha1-qmc7NW/mt+cNabbjOhf+9kEAhXg=
+"@babel/plugin-transform-spread@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-spread/-/plugin-transform-spread-7.8.3.tgz#9c8ffe8170fdfb88b114ecb920b82fb6e95fe5e8"
+  integrity sha1-nI/+gXD9+4ixFOy5ILgvtulf5eg=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-sticky-regex@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.7.4.tgz#ffb68c05090c30732076b1285dc1401b404a123c"
-  integrity sha1-/7aMBQkMMHMgdrEoXcFAG0BKEjw=
+"@babel/plugin-transform-sticky-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.8.3.tgz#be7a1290f81dae767475452199e1f76d6175b100"
+  integrity sha1-vnoSkPgdrnZ0dUUhmeH3bWF1sQA=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-regex" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-regex" "^7.8.3"
 
-"@babel/plugin-transform-template-literals@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.7.4.tgz#1eb6411736dd3fe87dbd20cc6668e5121c17d604"
-  integrity sha1-HrZBFzbdP+h9vSDMZmjlEhwX1gQ=
+"@babel/plugin-transform-template-literals@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.8.3.tgz#7bfa4732b455ea6a43130adc0ba767ec0e402a80"
+  integrity sha1-e/pHMrRV6mpDEwrcC6dn7A5AKoA=
   dependencies:
-    "@babel/helper-annotate-as-pure" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-annotate-as-pure" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-typeof-symbol@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.7.4.tgz#3174626214f2d6de322882e498a38e8371b2140e"
-  integrity sha1-MXRiYhTy1t4yKILkmKOOg3GyFA4=
+"@babel/plugin-transform-typeof-symbol@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.8.4.tgz#ede4062315ce0aaf8a657a920858f1a2f35fc412"
+  integrity sha1-7eQGIxXOCq+KZXqSCFjxovNfxBI=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-unicode-regex@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.7.4.tgz#a3c0f65b117c4c81c5b6484f2a5e7b95346b83ae"
-  integrity sha1-o8D2WxF8TIHFtkhPKl57lTRrg64=
+"@babel/plugin-transform-unicode-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.8.3.tgz#0cef36e3ba73e5c57273effb182f46b91a1ecaad"
+  integrity sha1-DO8247pz5cVyc+/7GC9GuRoeyq0=
   dependencies:
-    "@babel/helper-create-regexp-features-plugin" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-create-regexp-features-plugin" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/polyfill@^7.7.0":
-  version "7.7.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/polyfill/-/polyfill-7.7.0.tgz#e1066e251e17606ec7908b05617f9b7f8180d8f3"
-  integrity sha1-4QZuJR4XYG7HkIsFYX+bf4GA2PM=
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/polyfill/-/polyfill-7.8.3.tgz#2333fc2144a542a7c07da39502ceeeb3abe4debd"
+  integrity sha1-IzP8IUSlQqfAfaOVAs7us6vk3r0=
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
 
 "@babel/preset-env@^7.7.4":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/preset-env/-/preset-env-7.7.7.tgz#c294167b91e53e7e36d820e943ece8d0c7fe46ac"
-  integrity sha1-wpQWe5HlPn422CDpQ+zo0Mf+Rqw=
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/preset-env/-/preset-env-7.8.4.tgz#9dac6df5f423015d3d49b6e9e5fa3413e4a72c4e"
+  integrity sha1-naxt9fQjAV09Sbbp5fo0E+SnLE4=
   dependencies:
-    "@babel/helper-module-imports" "^7.7.4"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-proposal-async-generator-functions" "^7.7.4"
-    "@babel/plugin-proposal-dynamic-import" "^7.7.4"
-    "@babel/plugin-proposal-json-strings" "^7.7.4"
-    "@babel/plugin-proposal-object-rest-spread" "^7.7.7"
-    "@babel/plugin-proposal-optional-catch-binding" "^7.7.4"
-    "@babel/plugin-proposal-unicode-property-regex" "^7.7.7"
-    "@babel/plugin-syntax-async-generators" "^7.7.4"
-    "@babel/plugin-syntax-dynamic-import" "^7.7.4"
-    "@babel/plugin-syntax-json-strings" "^7.7.4"
-    "@babel/plugin-syntax-object-rest-spread" "^7.7.4"
-    "@babel/plugin-syntax-optional-catch-binding" "^7.7.4"
-    "@babel/plugin-syntax-top-level-await" "^7.7.4"
-    "@babel/plugin-transform-arrow-functions" "^7.7.4"
-    "@babel/plugin-transform-async-to-generator" "^7.7.4"
-    "@babel/plugin-transform-block-scoped-functions" "^7.7.4"
-    "@babel/plugin-transform-block-scoping" "^7.7.4"
-    "@babel/plugin-transform-classes" "^7.7.4"
-    "@babel/plugin-transform-computed-properties" "^7.7.4"
-    "@babel/plugin-transform-destructuring" "^7.7.4"
-    "@babel/plugin-transform-dotall-regex" "^7.7.7"
-    "@babel/plugin-transform-duplicate-keys" "^7.7.4"
-    "@babel/plugin-transform-exponentiation-operator" "^7.7.4"
-    "@babel/plugin-transform-for-of" "^7.7.4"
-    "@babel/plugin-transform-function-name" "^7.7.4"
-    "@babel/plugin-transform-literals" "^7.7.4"
-    "@babel/plugin-transform-member-expression-literals" "^7.7.4"
-    "@babel/plugin-transform-modules-amd" "^7.7.5"
-    "@babel/plugin-transform-modules-commonjs" "^7.7.5"
-    "@babel/plugin-transform-modules-systemjs" "^7.7.4"
-    "@babel/plugin-transform-modules-umd" "^7.7.4"
-    "@babel/plugin-transform-named-capturing-groups-regex" "^7.7.4"
-    "@babel/plugin-transform-new-target" "^7.7.4"
-    "@babel/plugin-transform-object-super" "^7.7.4"
-    "@babel/plugin-transform-parameters" "^7.7.7"
-    "@babel/plugin-transform-property-literals" "^7.7.4"
-    "@babel/plugin-transform-regenerator" "^7.7.5"
-    "@babel/plugin-transform-reserved-words" "^7.7.4"
-    "@babel/plugin-transform-shorthand-properties" "^7.7.4"
-    "@babel/plugin-transform-spread" "^7.7.4"
-    "@babel/plugin-transform-sticky-regex" "^7.7.4"
-    "@babel/plugin-transform-template-literals" "^7.7.4"
-    "@babel/plugin-transform-typeof-symbol" "^7.7.4"
-    "@babel/plugin-transform-unicode-regex" "^7.7.4"
-    "@babel/types" "^7.7.4"
-    browserslist "^4.6.0"
-    core-js-compat "^3.6.0"
+    "@babel/compat-data" "^7.8.4"
+    "@babel/helper-compilation-targets" "^7.8.4"
+    "@babel/helper-module-imports" "^7.8.3"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-proposal-async-generator-functions" "^7.8.3"
+    "@babel/plugin-proposal-dynamic-import" "^7.8.3"
+    "@babel/plugin-proposal-json-strings" "^7.8.3"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-proposal-object-rest-spread" "^7.8.3"
+    "@babel/plugin-proposal-optional-catch-binding" "^7.8.3"
+    "@babel/plugin-proposal-optional-chaining" "^7.8.3"
+    "@babel/plugin-proposal-unicode-property-regex" "^7.8.3"
+    "@babel/plugin-syntax-async-generators" "^7.8.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.0"
+    "@babel/plugin-syntax-json-strings" "^7.8.0"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.0"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.0"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.0"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.0"
+    "@babel/plugin-syntax-top-level-await" "^7.8.3"
+    "@babel/plugin-transform-arrow-functions" "^7.8.3"
+    "@babel/plugin-transform-async-to-generator" "^7.8.3"
+    "@babel/plugin-transform-block-scoped-functions" "^7.8.3"
+    "@babel/plugin-transform-block-scoping" "^7.8.3"
+    "@babel/plugin-transform-classes" "^7.8.3"
+    "@babel/plugin-transform-computed-properties" "^7.8.3"
+    "@babel/plugin-transform-destructuring" "^7.8.3"
+    "@babel/plugin-transform-dotall-regex" "^7.8.3"
+    "@babel/plugin-transform-duplicate-keys" "^7.8.3"
+    "@babel/plugin-transform-exponentiation-operator" "^7.8.3"
+    "@babel/plugin-transform-for-of" "^7.8.4"
+    "@babel/plugin-transform-function-name" "^7.8.3"
+    "@babel/plugin-transform-literals" "^7.8.3"
+    "@babel/plugin-transform-member-expression-literals" "^7.8.3"
+    "@babel/plugin-transform-modules-amd" "^7.8.3"
+    "@babel/plugin-transform-modules-commonjs" "^7.8.3"
+    "@babel/plugin-transform-modules-systemjs" "^7.8.3"
+    "@babel/plugin-transform-modules-umd" "^7.8.3"
+    "@babel/plugin-transform-named-capturing-groups-regex" "^7.8.3"
+    "@babel/plugin-transform-new-target" "^7.8.3"
+    "@babel/plugin-transform-object-super" "^7.8.3"
+    "@babel/plugin-transform-parameters" "^7.8.4"
+    "@babel/plugin-transform-property-literals" "^7.8.3"
+    "@babel/plugin-transform-regenerator" "^7.8.3"
+    "@babel/plugin-transform-reserved-words" "^7.8.3"
+    "@babel/plugin-transform-shorthand-properties" "^7.8.3"
+    "@babel/plugin-transform-spread" "^7.8.3"
+    "@babel/plugin-transform-sticky-regex" "^7.8.3"
+    "@babel/plugin-transform-template-literals" "^7.8.3"
+    "@babel/plugin-transform-typeof-symbol" "^7.8.4"
+    "@babel/plugin-transform-unicode-regex" "^7.8.3"
+    "@babel/types" "^7.8.3"
+    browserslist "^4.8.5"
+    core-js-compat "^3.6.2"
     invariant "^2.2.2"
-    js-levenshtein "^1.1.3"
+    levenary "^1.1.1"
     semver "^5.5.0"
 
 "@babel/preset-react@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/preset-react/-/preset-react-7.7.4.tgz#3fe2ea698d8fb536d8e7881a592c3c1ee8bf5707"
-  integrity sha1-P+LqaY2PtTbY54gaWSw8Hui/Vwc=
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/preset-react/-/preset-react-7.8.3.tgz#23dc63f1b5b0751283e04252e78cf1d6589273d2"
+  integrity sha1-I9xj8bWwdRKD4EJS54zx1liSc9I=
   dependencies:
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/plugin-transform-react-display-name" "^7.7.4"
-    "@babel/plugin-transform-react-jsx" "^7.7.4"
-    "@babel/plugin-transform-react-jsx-self" "^7.7.4"
-    "@babel/plugin-transform-react-jsx-source" "^7.7.4"
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/plugin-transform-react-display-name" "^7.8.3"
+    "@babel/plugin-transform-react-jsx" "^7.8.3"
+    "@babel/plugin-transform-react-jsx-self" "^7.8.3"
+    "@babel/plugin-transform-react-jsx-source" "^7.8.3"
 
 "@babel/register@^7.7.4":
-  version "7.7.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/register/-/register-7.7.7.tgz#46910c4d1926b9c6096421b23d1f9e159c1dcee1"
-  integrity sha1-RpEMTRkmucYJZCGyPR+eFZwdzuE=
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/register/-/register-7.8.3.tgz#5d5d30cfcc918437535d724b8ac1e4a60c5db1f8"
+  integrity sha1-XV0wz8yRhDdTXXJLisHkpgxdsfg=
   dependencies:
     find-cache-dir "^2.0.0"
     lodash "^4.17.13"
@@ -714,34 +779,34 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/template@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/template/-/template-7.7.4.tgz#428a7d9eecffe27deac0a98e23bf8e3675d2a77b"
-  integrity sha1-Qop9nuz/4n3qwKmOI7+ONnXSp3s=
+"@babel/template@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/template/-/template-7.8.3.tgz#e02ad04fe262a657809327f578056ca15fd4d1b8"
+  integrity sha1-4CrQT+JipleAkyf1eAVsoV/U0bg=
   dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/code-frame" "^7.8.3"
+    "@babel/parser" "^7.8.3"
+    "@babel/types" "^7.8.3"
 
-"@babel/traverse@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/traverse/-/traverse-7.7.4.tgz#9c1e7c60fb679fe4fcfaa42500833333c2058558"
-  integrity sha1-nB58YPtnn+T8+qQlAIMzM8IFhVg=
+"@babel/traverse@^7.7.4", "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4":
+  version "7.8.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/traverse/-/traverse-7.8.4.tgz#f0845822365f9d5b0e312ed3959d3f827f869e3c"
+  integrity sha1-8IRYIjZfnVsOMS7TlZ0/gn+Gnjw=
   dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/generator" "^7.7.4"
-    "@babel/helper-function-name" "^7.7.4"
-    "@babel/helper-split-export-declaration" "^7.7.4"
-    "@babel/parser" "^7.7.4"
-    "@babel/types" "^7.7.4"
+    "@babel/code-frame" "^7.8.3"
+    "@babel/generator" "^7.8.4"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/helper-split-export-declaration" "^7.8.3"
+    "@babel/parser" "^7.8.4"
+    "@babel/types" "^7.8.3"
     debug "^4.1.0"
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.7.4":
-  version "7.7.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/types/-/types-7.7.4.tgz#516570d539e44ddf308c07569c258ff94fde9193"
-  integrity sha1-UWVw1TnkTd8wjAdWnCWP+U/ekZM=
+"@babel/types@^7.7.4", "@babel/types@^7.8.3":
+  version "7.8.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@babel/types/-/types-7.8.3.tgz#5a383dffa5416db1b73dedffd311ffd0788fb31c"
+  integrity sha1-Wjg9/6VBbbG3Pe3/0xH/0HiPsxw=
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.13"
@@ -766,9 +831,9 @@
   integrity sha1-mgb08TfuhNffBGDB/bETX/psUP0=
 
 "@types/cheerio@^0.22.8":
-  version "0.22.15"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/cheerio/-/cheerio-0.22.15.tgz#69040ffa92c309beeeeb7e92db66ac3f80700c0b"
-  integrity sha1-aQQP+pLDCb7u636S22asP4BwDAs=
+  version "0.22.16"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/cheerio/-/cheerio-0.22.16.tgz#c748a97b8a6f781b04bbda4a552e11b35bcc77e4"
+  integrity sha1-x0ipe4pveBsEu9pKVS4Rs1vMd+Q=
   dependencies:
     "@types/node" "*"
 
@@ -778,14 +843,19 @@
   integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
 
 "@types/node@*":
-  version "13.1.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/node/-/node-13.1.0.tgz#225cbaac5fdb2b9ac651b02c070d8aa3c37cc812"
-  integrity sha1-Ily6rF/bK5rGUbAsBw2Ko8N8yBI=
+  version "13.7.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/node/-/node-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
+  integrity sha1-tBfe2hjPhADyeHM0ma1VR+0avsQ=
 
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha1-aQoUdbhPKohP0HzXl8APXzE1bqg=
+
+abbrev@1:
+  version "1.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
+  integrity sha1-+PLIh60Qv2f2NPAFtph/7TF5qsg=
 
 accepts@~1.3.7:
   version "1.3.7"
@@ -801,11 +871,11 @@ address@1.1.2, address@^1.0.1:
   integrity sha1-vxEWycdYxRt6kz0pa3LCIe2UKLY=
 
 ajv@^6.5.5:
-  version "6.10.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
-  integrity sha1-086gTWsBeyiUrWkED+yLYj60vVI=
+  version "6.11.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ajv/-/ajv-6.11.0.tgz#c3607cbc8ae392d8a5a536f25b21f8e5f3f87fe9"
+  integrity sha1-w2B8vIrjktilpTbyWyH45fP4f+k=
   dependencies:
-    fast-deep-equal "^2.0.1"
+    fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
@@ -855,9 +925,9 @@ ansi-styles@^3.2.1:
     color-convert "^1.9.0"
 
 ansi-styles@^4.1.0:
-  version "4.2.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ansi-styles/-/ansi-styles-4.2.0.tgz#5681f0dcf7ae5880a7841d8831c4724ed9cc0172"
-  integrity sha1-VoHw3PeuWICnhB2IMcRyTtnMAXI=
+  version "4.2.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ansi-styles/-/ansi-styles-4.2.1.tgz#90ae75c424d008d2624c5bf29ead3177ebfcf359"
+  integrity sha1-kK51xCTQCNJiTFvynq0xd+v881k=
   dependencies:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
@@ -875,6 +945,11 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
+aproba@^1.0.3:
+  version "1.2.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
+  integrity sha1-aALmJk79GMeQobDVF/DyYnvyyUo=
+
 arch@^2.1.0:
   version "2.1.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/arch/-/arch-2.1.1.tgz#8f5c2731aa35a30929221bb0640eed65175ec84e"
@@ -886,6 +961,14 @@ archive-type@^4.0.0:
   integrity sha1-+S5yIzBW38aWlHJ0nCZ72wRrHXA=
   dependencies:
     file-type "^4.2.0"
+
+are-we-there-yet@~1.1.2:
+  version "1.1.5"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/are-we-there-yet/-/are-we-there-yet-1.1.5.tgz#4b35c2944f062a8bfcda66410760350fe9ddfc21"
+  integrity sha1-SzXClE8GKov82mZBB2A1D+nd/CE=
+  dependencies:
+    delegates "^1.0.0"
+    readable-stream "^2.0.6"
 
 argparse@^1.0.10, argparse@^1.0.7:
   version "1.0.10"
@@ -975,7 +1058,7 @@ asynckit@^0.4.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-atob@^2.1.1:
+atob@^2.1.2:
   version "2.1.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
@@ -995,16 +1078,16 @@ autolinker@~0.28.0:
     gulp-header "^1.7.1"
 
 autoprefixer@^9.7.2:
-  version "9.7.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/autoprefixer/-/autoprefixer-9.7.3.tgz#fd42ed03f53de9beb4ca0d61fb4f7268a9bb50b4"
-  integrity sha1-/ULtA/U96b60yg1h+09yaKm7ULQ=
+  version "9.7.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/autoprefixer/-/autoprefixer-9.7.4.tgz#f8bf3e06707d047f0641d87aee8cfb174b2a5378"
+  integrity sha1-+L8+BnB9BH8GQdh67oz7F0sqU3g=
   dependencies:
-    browserslist "^4.8.0"
-    caniuse-lite "^1.0.30001012"
+    browserslist "^4.8.3"
+    caniuse-lite "^1.0.30001020"
     chalk "^2.4.2"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^7.0.23"
+    postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
 aws-sign2@~0.7.0:
@@ -1013,9 +1096,9 @@ aws-sign2@~0.7.0:
   integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
 
 aws4@^1.8.0:
-  version "1.9.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/aws4/-/aws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
-  integrity sha1-JDkOatYThrCnRyZXVNKhchnehiw=
+  version "1.9.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
+  integrity sha1-fjPY99RJs/ZzzXLeuavcVS2+Uo4=
 
 babel-code-frame@^6.22.0:
   version "6.26.0"
@@ -1205,14 +1288,14 @@ browserslist@4.7.0:
     electron-to-chromium "^1.3.247"
     node-releases "^1.1.29"
 
-browserslist@^4.0.0, browserslist@^4.6.0, browserslist@^4.8.0, browserslist@^4.8.2:
-  version "4.8.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/browserslist/-/browserslist-4.8.2.tgz#b45720ad5fbc8713b7253c20766f701c9a694289"
-  integrity sha1-tFcgrV+8hxO3JTwgdm9wHJppQok=
+browserslist@^4.0.0, browserslist@^4.8.3, browserslist@^4.8.5:
+  version "4.8.6"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/browserslist/-/browserslist-4.8.6.tgz#96406f3f5f0755d272e27a66f4163ca821590a7e"
+  integrity sha1-lkBvP18HVdJy4npm9BY8qCFZCn4=
   dependencies:
-    caniuse-lite "^1.0.30001015"
-    electron-to-chromium "^1.3.322"
-    node-releases "^1.1.42"
+    caniuse-lite "^1.0.30001023"
+    electron-to-chromium "^1.3.341"
+    node-releases "^1.1.47"
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -1335,10 +1418,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001012, caniuse-lite@^1.0.30001015:
-  version "1.0.30001016"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/caniuse-lite/-/caniuse-lite-1.0.30001016.tgz#16ea48d7d6e8caf3cad3295c2d746fe38c4e7f66"
-  integrity sha1-FupI19boyvPK0ylcLXRv44xOf2Y=
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001020, caniuse-lite@^1.0.30001023:
+  version "1.0.30001027"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/caniuse-lite/-/caniuse-lite-1.0.30001027.tgz#283e2ef17d94889cc216a22c6f85303d78ca852d"
+  integrity sha1-KD4u8X2UiJzCFqIsb4UwPXjKhS0=
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -1429,6 +1512,11 @@ chokidar@^2.0.4:
   optionalDependencies:
     fsevents "^1.2.7"
 
+chownr@^1.1.1:
+  version "1.1.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
+  integrity sha1-Qtg31SOWiNVfMDADpQgjD6ZycUI=
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -1480,6 +1568,11 @@ coa@^2.0.2:
     "@types/q" "^1.5.1"
     chalk "^2.4.1"
     q "^1.1.2"
+
+code-point-at@^1.0.0:
+  version "1.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+  integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
 coffee-script@^1.12.4:
   version "1.12.7"
@@ -1541,15 +1634,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.15.1, commander@~2.20.3:
+commander@^2.15.1:
   version "2.20.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
 commander@^4.0.1:
-  version "4.0.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/commander/-/commander-4.0.1.tgz#b67622721785993182e807f4883633e6401ba53c"
-  integrity sha1-tnYicheFmTGC6Af0iDYz5kAbpTw=
+  version "4.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
+  integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
 
 commander@~2.8.1:
   version "2.8.1"
@@ -1598,6 +1691,11 @@ config-chain@^1.1.11:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
+console-control-strings@^1.0.0, console-control-strings@~1.1.0:
+  version "1.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
+  integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+
 console-stream@^0.1.1:
   version "0.1.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/console-stream/-/console-stream-0.1.1.tgz#a095fe07b20465955f2fafd28b5d72bccd949d44"
@@ -1642,12 +1740,12 @@ copy-descriptor@^0.1.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js-compat@^3.6.0:
-  version "3.6.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/core-js-compat/-/core-js-compat-3.6.1.tgz#39638c935c83c93a793abb628b252ec43e85783a"
-  integrity sha1-OWOMk1yDyTp5OrtiiyUuxD6FeDo=
+core-js-compat@^3.6.2:
+  version "3.6.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/core-js-compat/-/core-js-compat-3.6.4.tgz#938476569ebb6cda80d339bcf199fae4f16fff17"
+  integrity sha1-k4R2Vp67bNqA0zm88Zn65PFv/xc=
   dependencies:
-    browserslist "^4.8.2"
+    browserslist "^4.8.3"
     semver "7.0.0"
 
 core-js@^2.6.5:
@@ -1868,7 +1966,7 @@ debug@4.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@^3.1.0, debug@^3.1.1, debug@^3.2.5:
+debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -1952,6 +2050,11 @@ decompress@^4.0.0, decompress@^4.2.0:
     pify "^2.3.0"
     strip-dirs "^2.0.0"
 
+deep-extend@^0.6.0:
+  version "0.6.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
+  integrity sha1-xPp8lUBKF6nD6Mp+FTcxK3NjMKw=
+
 deep-is@^0.1.3:
   version "0.1.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
@@ -1996,6 +2099,11 @@ delegate@^3.1.2:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
   integrity sha1-tmtxwxWFIuirV0T3INjKDCr1kWY=
 
+delegates@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
+  integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+
 depd@~1.1.2:
   version "1.1.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -2005,6 +2113,11 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+
+detect-libc@^1.0.2:
+  version "1.0.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
+  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
 detect-port-alt@1.1.6:
   version "1.1.6"
@@ -2028,9 +2141,9 @@ dir-glob@2.0.0:
     path-type "^3.0.0"
 
 docusaurus@^1.8.1:
-  version "1.14.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/docusaurus/-/docusaurus-1.14.3.tgz#640ffc37ae14fe58c175fd14e66c3a2dd36e19a3"
-  integrity sha1-ZA/8N64U/ljBdf0U5mw6LdNuGaM=
+  version "1.14.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/docusaurus/-/docusaurus-1.14.4.tgz#1ef3ebe8c2aaaf1dec6c2e0e177e83be78aeaca3"
+  integrity sha1-HvPr6MKqrx3sbC4OF36DvniurKM=
   dependencies:
     "@babel/core" "^7.7.4"
     "@babel/plugin-proposal-class-properties" "^7.7.4"
@@ -2193,10 +2306,10 @@ ee-first@1.1.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.322:
-  version "1.3.322"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/electron-to-chromium/-/electron-to-chromium-1.3.322.tgz#a6f7e1c79025c2b05838e8e344f6e89eb83213a8"
-  integrity sha1-pvfhx5AlwrBYOOjjRPbonrgyE6g=
+electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.341:
+  version "1.3.348"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/electron-to-chromium/-/electron-to-chromium-1.3.348.tgz#61fa7d43f6c4fd8b046b0b69213cb55b7a4c76a5"
+  integrity sha1-Yfp9Q/bE/YsEawtpITy1W3pMdqU=
 
 "emoji-regex@>=6.0.0 <=6.1.1":
   version "6.1.1"
@@ -2244,10 +2357,10 @@ error@^7.0.0:
   dependencies:
     string-template "~0.2.1"
 
-es-abstract@^1.17.0-next.1:
-  version "1.17.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/es-abstract/-/es-abstract-1.17.0.tgz#f42a517d0036a5591dbb2c463591dc8bb50309b1"
-  integrity sha1-9CpRfQA2pVkduyxGNZHci7UDCbE=
+es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
+  version "1.17.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/es-abstract/-/es-abstract-1.17.4.tgz#e3aedf19706b20e7c2594c35fc0d57605a79e184"
+  integrity sha1-467fGXBrIOfCWUw1/A1XYFp54YQ=
   dependencies:
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
@@ -2475,10 +2588,10 @@ extsprintf@^1.2.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fast-deep-equal@^2.0.1:
-  version "2.0.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
-  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+fast-deep-equal@^3.1.1:
+  version "3.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
+  integrity sha1-VFFFB3xQFJHjOxXsQIwpQ3bpSuQ=
 
 fast-glob@^2.0.2:
   version "2.2.7"
@@ -2519,9 +2632,9 @@ fd-slicer@~1.1.0:
     pend "~1.2.0"
 
 feed@^4.0.0:
-  version "4.0.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/feed/-/feed-4.0.0.tgz#d3c2bfb9aba3c0efacab1ed15be06b67f5c02539"
-  integrity sha1-08K/uaujwO+sqx7RW+BrZ/XAJTk=
+  version "4.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/feed/-/feed-4.1.0.tgz#58f1c9cc2b44715d14ac59234e1bf20c5d757aa7"
+  integrity sha1-WPHJzCtEcV0UrFkjThvyDF11eqc=
   dependencies:
     xml-js "^1.6.11"
 
@@ -2738,6 +2851,13 @@ fs-extra@^8.1.0:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-minipass@^1.2.5:
+  version "1.2.7"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fs-minipass/-/fs-minipass-1.2.7.tgz#ccff8570841e7fe4265693da88936c55aed7f7c7"
+  integrity sha1-zP+FcIQef+QmVpPaiJNsVa7X98c=
+  dependencies:
+    minipass "^2.6.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -2756,12 +2876,31 @@ function-bind@^1.1.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
 
+gauge@~2.7.3:
+  version "2.7.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
+  integrity sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=
+  dependencies:
+    aproba "^1.0.3"
+    console-control-strings "^1.0.0"
+    has-unicode "^2.0.0"
+    object-assign "^4.1.0"
+    signal-exit "^3.0.0"
+    string-width "^1.0.1"
+    strip-ansi "^3.0.1"
+    wide-align "^1.1.0"
+
 gaze@^1.1.3:
   version "1.1.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/gaze/-/gaze-1.1.3.tgz#c441733e13b927ac8c0ff0b4c3b033f28812924a"
   integrity sha1-xEFzPhO5J6yMD/C0w7Az8ogSkko=
   dependencies:
     globule "^1.0.0"
+
+gensync@^1.0.0-beta.1:
+  version "1.0.0-beta.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
+  integrity sha1-WPQ2H/mH5f9uHnohCCeqNx6qwmk=
 
 get-proxy@^2.0.0:
   version "2.1.0"
@@ -2980,17 +3119,6 @@ gzip-size@5.1.1:
     duplexer "^0.1.1"
     pify "^4.0.1"
 
-handlebars@^4.5.3:
-  version "4.5.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/handlebars/-/handlebars-4.5.3.tgz#5cf75bd8714f7605713511a56be7c349becb0482"
-  integrity sha1-XPdb2HFPdgVxNRGla+fDSb7LBII=
-  dependencies:
-    neo-async "^2.6.0"
-    optimist "^0.6.1"
-    source-map "^0.6.1"
-  optionalDependencies:
-    uglify-js "^3.1.4"
-
 har-schema@^2.0.0:
   version "2.0.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
@@ -3038,6 +3166,11 @@ has-to-string-tag-x@^1.2.0:
   dependencies:
     has-symbol-support-x "^1.4.1"
 
+has-unicode@^2.0.0:
+  version "2.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
+  integrity sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=
+
 has-value@^0.3.1:
   version "0.3.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/has-value/-/has-value-0.3.1.tgz#7b1f58bada62ca827ec0a2078025654845995e1f"
@@ -3082,11 +3215,9 @@ hex-color-regex@^1.1.0:
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
 highlight.js@^9.16.2:
-  version "9.17.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/highlight.js/-/highlight.js-9.17.1.tgz#14a4eded23fd314b05886758bb906e39dd627f9a"
-  integrity sha1-FKTt7SP9MUsFiGdYu5BuOd1if5o=
-  dependencies:
-    handlebars "^4.5.3"
+  version "9.18.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
+  integrity sha1-7SGqAB/mJSuxCj121HVzxlOf4Tw=
 
 hosted-git-info@^2.1.4:
   version "2.8.5"
@@ -3161,7 +3292,7 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -3172,6 +3303,13 @@ ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha1-7BaFWOlaoYH9h9N/VcMrvLZwi4Q=
+
+ignore-walk@^3.0.1:
+  version "3.0.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ignore-walk/-/ignore-walk-3.0.3.tgz#017e2447184bfeade7c238e4aefdd1e8f95b1e37"
+  integrity sha1-AX4kRxhL/q3nwjjkrv3R6PlbHjc=
+  dependencies:
+    minimatch "^3.0.4"
 
 ignore@^3.3.5:
   version "3.3.10"
@@ -3273,7 +3411,7 @@ inherits@2.0.3:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ini@^1.3.4, ini@^1.3.5:
+ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
   version "1.3.5"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
@@ -3310,7 +3448,7 @@ into-stream@^3.1.0:
     from2 "^2.1.1"
     p-is-promise "^1.1.0"
 
-invariant@^2.2.2:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -3445,9 +3583,14 @@ is-extglob@^2.1.0, is-extglob@^2.1.1:
   integrity sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
 
 is-finite@^1.0.0:
-  version "1.0.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/is-finite/-/is-finite-1.0.2.tgz#cc6677695602be550ef11e8b4aa6305342b6d0aa"
-  integrity sha1-zGZ3aVYCvlUO8R6LSqYwU0K20Ko=
+  version "1.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/is-finite/-/is-finite-1.1.0.tgz#904135c77fb42c0641d6aa1bcdbc4daa8da082f3"
+  integrity sha1-kEE1x3+0LAZB1qobzbxNqo2ggvM=
+
+is-fullwidth-code-point@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
+  integrity sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
   dependencies:
     number-is-nan "^1.0.0"
 
@@ -3657,11 +3800,6 @@ jpegtran-bin@^4.0.0:
     bin-wrapper "^4.0.0"
     logalot "^2.0.0"
 
-js-levenshtein@^1.1.3:
-  version "1.1.6"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
-  integrity sha1-xs7ljrNVA3LfjeuF+tXOZs4B1Z0=
-
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -3783,9 +3921,9 @@ kind-of@^5.0.0:
   integrity sha1-cpyR4thXt6QZofmqZWhcTDP1hF0=
 
 kind-of@^6.0.0, kind-of@^6.0.2:
-  version "6.0.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
-  integrity sha1-ARRrNqYhjmTljzqNZt5df8b20FE=
+  version "6.0.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+  integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
 lazy-cache@^2.0.2:
   version "2.0.2"
@@ -3793,6 +3931,18 @@ lazy-cache@^2.0.2:
   integrity sha1-uRkKT5EzVGlIQIWfio9whNiCImQ=
   dependencies:
     set-getter "^0.1.0"
+
+leven@^3.1.0:
+  version "3.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
+  integrity sha1-d4kd6DQGTMy6gq54QrtrFKE+1/I=
+
+levenary@^1.1.1:
+  version "1.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/levenary/-/levenary-1.1.1.tgz#842a9ee98d2075aa7faeedbe32679e9205f46f77"
+  integrity sha1-hCqe6Y0gdap/ru2+MmeekgX0b3c=
+  dependencies:
+    leven "^3.1.0"
 
 list-item@^1.1.1:
   version "1.1.1"
@@ -4136,17 +4286,17 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-mime-db@1.42.0, mime-db@^1.28.0:
-  version "1.42.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mime-db/-/mime-db-1.42.0.tgz#3e252907b4c7adb906597b4b65636272cf9e7bac"
-  integrity sha1-PiUpB7THrbkGWXtLZWNics+ee6w=
+mime-db@1.43.0, mime-db@^1.28.0:
+  version "1.43.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mime-db/-/mime-db-1.43.0.tgz#0a12e0502650e473d735535050e7c8f4eb4fae58"
+  integrity sha1-ChLgUCZQ5HPXNVNQUOfI9OtPrlg=
 
 mime-types@^2.1.12, mime-types@~2.1.19, mime-types@~2.1.24:
-  version "2.1.25"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mime-types/-/mime-types-2.1.25.tgz#39772d46621f93e2a80a856c53b86a62156a6437"
-  integrity sha1-OXctRmIfk+KoCoVsU7hqYhVqZDc=
+  version "2.1.26"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mime-types/-/mime-types-2.1.26.tgz#9c921fc09b7e149a65dfdc0da4d20997200b0a06"
+  integrity sha1-nJIfwJt+FJpl39wNpNIJlyALCgY=
   dependencies:
-    mime-db "1.42.0"
+    mime-db "1.43.0"
 
 mime@1.6.0:
   version "1.6.0"
@@ -4180,10 +4330,20 @@ minimist@^1.1.3, minimist@^1.2.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
+minipass@^2.6.0, minipass@^2.8.6, minipass@^2.9.0:
+  version "2.9.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minipass/-/minipass-2.9.0.tgz#e713762e7d3e32fed803115cf93e04bca9fcc9a6"
+  integrity sha1-5xN2Ln0+Mv7YAxFc+T4EvKn8yaY=
+  dependencies:
+    safe-buffer "^5.1.2"
+    yallist "^3.0.0"
+
+minizlib@^1.2.1:
+  version "1.3.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/minizlib/-/minizlib-1.3.3.tgz#2290de96818a34c29551c8a8d301216bd65a861d"
+  integrity sha1-IpDeloGKNMKVUcio0wEha9Zahh0=
+  dependencies:
+    minipass "^2.9.0"
 
 mixin-deep@^1.1.3, mixin-deep@^1.2.0:
   version "1.3.2"
@@ -4193,7 +4353,7 @@ mixin-deep@^1.1.3, mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@^0.5.1, mkdirp@~0.5.1:
+mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   version "0.5.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
@@ -4242,15 +4402,19 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+needle@^2.2.1:
+  version "2.3.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/needle/-/needle-2.3.2.tgz#3342dea100b7160960a450dc8c22160ac712a528"
+  integrity sha1-M0LeoQC3FglgpFDcjCIWCscSpSg=
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.4.4"
+    sax "^1.2.4"
+
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
-
-neo-async@^2.6.0:
-  version "2.6.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
-  integrity sha1-rCetpmFn+ohJpq3dg39rGJrSCBw=
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -4262,12 +4426,36 @@ node-modules-regexp@^1.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
   integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
 
-node-releases@^1.1.29, node-releases@^1.1.42:
-  version "1.1.44"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/node-releases/-/node-releases-1.1.44.tgz#cd66438a6eb875e3eb012b6a12e48d9f4326ffd7"
-  integrity sha1-zWZDim64dePrAStqEuSNn0Mm/9c=
+node-pre-gyp@*:
+  version "0.14.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
+  integrity sha1-mgWWUzuHcom8rU4UOYLKPZBN3IM=
+  dependencies:
+    detect-libc "^1.0.2"
+    mkdirp "^0.5.1"
+    needle "^2.2.1"
+    nopt "^4.0.1"
+    npm-packlist "^1.1.6"
+    npmlog "^4.0.2"
+    rc "^1.2.7"
+    rimraf "^2.6.1"
+    semver "^5.3.0"
+    tar "^4.4.2"
+
+node-releases@^1.1.29, node-releases@^1.1.47:
+  version "1.1.48"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/node-releases/-/node-releases-1.1.48.tgz#7f647f0c453a0495bcd64cbd4778c26035c2f03a"
+  integrity sha1-f2R/DEU6BJW81ky9R3jCYDXC8Do=
   dependencies:
     semver "^6.3.0"
+
+nopt@^4.0.1:
+  version "4.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
+  integrity sha1-0NRoWv1UFRk8jHUFYC0NF81kR00=
+  dependencies:
+    abbrev "1"
+    osenv "^0.1.4"
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.5.0"
@@ -4310,6 +4498,13 @@ normalize-url@^3.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
 
+npm-bundled@^1.0.1:
+  version "1.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npm-bundled/-/npm-bundled-1.1.1.tgz#1edd570865a94cdb1bc8220775e29466c9fb234b"
+  integrity sha1-Ht1XCGWpTNsbyCIHdeKUZsn7I0s=
+  dependencies:
+    npm-normalize-package-bin "^1.0.1"
+
 npm-conf@^1.1.0:
   version "1.1.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npm-conf/-/npm-conf-1.1.3.tgz#256cc47bd0e218c259c4e9550bf413bc2192aff9"
@@ -4318,12 +4513,36 @@ npm-conf@^1.1.0:
     config-chain "^1.1.11"
     pify "^3.0.0"
 
+npm-normalize-package-bin@^1.0.1:
+  version "1.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npm-normalize-package-bin/-/npm-normalize-package-bin-1.0.1.tgz#6e79a41f23fd235c0623218228da7d9c23b8f6e2"
+  integrity sha1-bnmkHyP9I1wGIyGCKNp9nCO49uI=
+
+npm-packlist@^1.1.6:
+  version "1.4.8"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npm-packlist/-/npm-packlist-1.4.8.tgz#56ee6cc135b9f98ad3d51c1c95da22bbb9b2ef3e"
+  integrity sha1-Vu5swTW5+YrT1Rwcldoiu7my7z4=
+  dependencies:
+    ignore-walk "^3.0.1"
+    npm-bundled "^1.0.1"
+    npm-normalize-package-bin "^1.0.1"
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   integrity sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
   dependencies:
     path-key "^2.0.0"
+
+npmlog@^4.0.2:
+  version "4.1.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
+  integrity sha1-CKfyqL9zRgR3mp76StXMcXq7lUs=
+  dependencies:
+    are-we-there-yet "~1.1.2"
+    console-control-strings "~1.1.0"
+    gauge "~2.7.3"
+    set-blocking "~2.0.0"
 
 nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"
@@ -4388,7 +4607,7 @@ object.assign@^4.1.0:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
-object.getownpropertydescriptors@^2.0.3:
+object.getownpropertydescriptors@^2.1.0:
   version "2.1.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.0.tgz#369bf1f9592d8ab89d712dced5cb81c7c5352649"
   integrity sha1-Npvx+VktiridcS3O1cuBx8U1Jkk=
@@ -4441,14 +4660,6 @@ open@^6.3.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
-
 optipng-bin@^5.0.0:
   version "5.1.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/optipng-bin/-/optipng-bin-5.1.0.tgz#a7c7ab600a3ab5a177dae2f94c2d800aa386b5a9"
@@ -4472,10 +4683,23 @@ os-filter-obj@^2.0.0:
   dependencies:
     arch "^2.1.0"
 
-os-tmpdir@~1.0.2:
+os-homedir@^1.0.0:
+  version "1.0.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
+  integrity sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+
+os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+
+osenv@^0.1.4:
+  version "0.1.5"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/osenv/-/osenv-0.1.5.tgz#85cdfafaeb28e8677f416e287592b5f3f49ea410"
+  integrity sha1-hc36+uso6Gd/QW4odZK18/SepBA=
+  dependencies:
+    os-homedir "^1.0.0"
+    os-tmpdir "^1.0.0"
 
 p-cancelable@^0.3.0:
   version "0.3.0"
@@ -4519,9 +4743,9 @@ p-limit@^1.1.0:
     p-try "^1.0.0"
 
 p-limit@^2.0.0:
-  version "2.2.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/p-limit/-/p-limit-2.2.1.tgz#aa07a788cc3151c939b5131f63570f0dd2009537"
-  integrity sha1-qgeniMwxUck5tRMfY1cPDdIAlTc=
+  version "2.2.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/p-limit/-/p-limit-2.2.2.tgz#61279b67721f5287aa1c13a9a7fbbc48c9291b1e"
+  integrity sha1-YSebZ3IfUoeqHBOpp/u8SMkpGx4=
   dependencies:
     p-try "^2.0.0"
 
@@ -5006,10 +5230,10 @@ postcss-value-parser@^4.0.2:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss-value-parser/-/postcss-value-parser-4.0.2.tgz#482282c09a42706d1fc9a069b73f44ec08391dc9"
   integrity sha1-SCKCwJpCcG0fyaBptz9E7Ag5Hck=
 
-postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.23, postcss@^7.0.5:
-  version "7.0.25"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss/-/postcss-7.0.25.tgz#dd2a2a753d50b13bed7a2009b4a18ac14d9db21e"
-  integrity sha1-3SoqdT1QsTvteiAJtKGKwU2dsh4=
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.23, postcss@^7.0.26, postcss@^7.0.5:
+  version "7.0.26"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
+  integrity sha1-XtYVz8qzW6m7uCQUpPqI6hBClYc=
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -5026,9 +5250,9 @@ prepend-http@^2.0.0:
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
 prismjs@^1.17.1:
-  version "1.17.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
-  integrity sha1-5mn8vUzdhzw1ECiBwzsU0NaFGb4=
+  version "1.19.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/prismjs/-/prismjs-1.19.0.tgz#713afbd45c3baca4b321569f2df39e17e729d4dc"
+  integrity sha1-cTr71Fw7rKSzIVafLfOeF+cp1Nw=
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -5070,9 +5294,9 @@ pseudomap@^1.0.2:
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.24:
-  version "1.6.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/psl/-/psl-1.6.0.tgz#60557582ee23b6c43719d9890fb4170ecd91e110"
-  integrity sha1-YFV1gu4jtsQ3GdmJD7QXDs2R4RA=
+  version "1.7.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/psl/-/psl-1.7.0.tgz#f1c4c47a8ef97167dea5d6bbf4816d736e884a3c"
+  integrity sha1-8cTEeo75cWfepda79IFtc26ISjw=
 
 pump@^3.0.0:
   version "3.0.0"
@@ -5158,6 +5382,16 @@ raw-body@~1.1.0:
     bytes "1"
     string_decoder "0.10"
 
+rc@^1.2.7:
+  version "1.2.8"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
+  integrity sha1-zZJL9SAKB1uDwYjNa54hG3/A0+0=
+  dependencies:
+    deep-extend "^0.6.0"
+    ini "~1.3.0"
+    minimist "^1.2.0"
+    strip-json-comments "~2.0.1"
+
 react-dev-utils@^9.1.0:
   version "9.1.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-dev-utils/-/react-dev-utils-9.1.0.tgz#3ad2bb8848a32319d760d0a84c56c14bdaae5e81"
@@ -5200,9 +5434,9 @@ react-dom@^16.8.4:
     scheduler "^0.18.0"
 
 react-error-overlay@^6.0.3:
-  version "6.0.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-error-overlay/-/react-error-overlay-6.0.4.tgz#0d165d6d27488e660bc08e57bdabaad741366f7a"
-  integrity sha1-DRZdbSdIjmYLwI5Xvauq10E2b3o=
+  version "6.0.5"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-error-overlay/-/react-error-overlay-6.0.5.tgz#55d59c2a3810e8b41922e0b4e5f85dcf239bd533"
+  integrity sha1-VdWcKjgQ6LQZIuC05fhdzyOb1TM=
 
 react-is@^16.8.1:
   version "16.12.0"
@@ -5235,10 +5469,10 @@ read-pkg@^1.0.0:
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
 
-readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.5, readable-stream@~2.3.6:
-  version "2.3.6"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
-  integrity sha1-sRwn2IuP8fvgcGQ8+UsMea4bCq8=
+readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2, readable-stream@^2.3.0, readable-stream@^2.3.5, readable-stream@~2.3.6:
+  version "2.3.7"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
@@ -5249,9 +5483,9 @@ readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.2.2, readable
     util-deprecate "~1.0.1"
 
 readable-stream@^3.1.1:
-  version "3.4.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/readable-stream/-/readable-stream-3.4.0.tgz#a51c26754658e0a3c21dbf59163bd45ba6f447fc"
-  integrity sha1-pRwmdUZY4KPCHb9ZFjvUW6b0R/w=
+  version "3.5.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/readable-stream/-/readable-stream-3.5.0.tgz#465d70e6d1087f6162d079cd0b5db7fbebfd1606"
+  integrity sha1-Rl1w5tEIf2Fi0HnNC123++v9FgY=
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -5429,9 +5663,9 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.1.6, resolve@^1.10.0, resolve@^1.3.2:
-  version "1.14.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve/-/resolve-1.14.1.tgz#9e018c540fcf0c427d678b9931cbf45e984bcaff"
-  integrity sha1-ngGMVA/PDEJ9Z4uZMcv0XphLyv8=
+  version "1.15.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
+  integrity sha1-J73N7/6vLWJEuVuw+fS0ZTRR8+g=
   dependencies:
     path-parse "^1.0.6"
 
@@ -5465,7 +5699,7 @@ rgba-regex@^1.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rimraf@^2.5.4:
+rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.7.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -5480,9 +5714,9 @@ run-async@^2.2.0:
     is-promise "^2.1.0"
 
 rxjs@^6.4.0:
-  version "6.5.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
-  integrity sha1-UQ4mMX9NuRp+sd532d2boKSJmjo=
+  version "6.5.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rxjs/-/rxjs-6.5.4.tgz#e0777fe0d184cec7872df147f303572d414e211c"
+  integrity sha1-4Hd/4NGEzseHLfFH8wNXLUFOIRw=
   dependencies:
     tslib "^1.9.0"
 
@@ -5593,6 +5827,11 @@ serve-static@1.14.1:
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.17.1"
+
+set-blocking@~2.0.0:
+  version "2.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
+  integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
 set-getter@^0.1.0:
   version "0.1.0"
@@ -5733,11 +5972,11 @@ sort-keys@^2.0.0:
     is-plain-obj "^1.0.0"
 
 source-map-resolve@^0.5.0:
-  version "0.5.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map-resolve/-/source-map-resolve-0.5.2.tgz#72e2cc34095543e43b2c62b2c4c10d4a9054f259"
-  integrity sha1-cuLMNAlVQ+Q7LGKyxMENSpBU8lk=
+  version "0.5.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map-resolve/-/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
+  integrity sha1-GQhmvs51U+H48mei7oLGBrVQmho=
   dependencies:
-    atob "^2.1.1"
+    atob "^2.1.2"
     decode-uri-component "^0.2.0"
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
@@ -5761,7 +6000,7 @@ source-map@^0.5.0, source-map@^0.5.6:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
-source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
@@ -5856,7 +6095,16 @@ string-template@~0.2.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/string-template/-/string-template-0.2.1.tgz#42932e598a352d01fc22ec3367d9d84eec6c9add"
   integrity sha1-QpMuWYo1LQH8IuwzZ9nYTuxsmt0=
 
-string-width@^2.1.0:
+string-width@^1.0.1:
+  version "1.0.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  integrity sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
+  dependencies:
+    code-point-at "^1.0.0"
+    is-fullwidth-code-point "^1.0.0"
+    strip-ansi "^3.0.0"
+
+"string-width@^1.0.2 || 2", string-width@^2.1.0:
   version "2.1.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
   integrity sha1-q5Pyeo3BPSjKyBXEYhQ6bZASrp4=
@@ -5906,7 +6154,7 @@ strip-ansi@5.2.0, strip-ansi@^5.1.0:
   dependencies:
     ansi-regex "^4.1.0"
 
-strip-ansi@^3.0.0:
+strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
   integrity sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
@@ -5950,6 +6198,11 @@ strip-indent@^1.0.1:
   integrity sha1-DHlipq3vp7vUrDZkYKY4VSrhoKI=
   dependencies:
     get-stdin "^4.0.1"
+
+strip-json-comments@~2.0.1:
+  version "2.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+  integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
 strip-outer@^1.0.0:
   version "1.0.1"
@@ -6029,6 +6282,19 @@ tar-stream@^1.5.2:
     readable-stream "^2.3.0"
     to-buffer "^1.1.1"
     xtend "^4.0.0"
+
+tar@^4.4.2:
+  version "4.4.13"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
+  integrity sha1-Q7NkvFKIjVVSmGN7ENYHkCVKtSU=
+  dependencies:
+    chownr "^1.1.1"
+    fs-minipass "^1.2.5"
+    minipass "^2.8.6"
+    minizlib "^1.2.1"
+    mkdirp "^0.5.0"
+    safe-buffer "^5.1.2"
+    yallist "^3.0.3"
 
 tcp-port-used@^1.0.1:
   version "1.0.1"
@@ -6220,14 +6486,6 @@ typedarray@^0.0.6:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-uglify-js@^3.1.4:
-  version "3.7.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uglify-js/-/uglify-js-3.7.2.tgz#cb1a601e67536e9ed094a92dd1e333459643d3f9"
-  integrity sha1-yxpgHmdTbp7QlKkt0eMzRZZD0/k=
-  dependencies:
-    commander "~2.20.3"
-    source-map "~0.6.1"
-
 unbzip2-stream@^1.0.9:
   version "1.3.3"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/unbzip2-stream/-/unbzip2-stream-1.3.3.tgz#d156d205e670d8d8c393e1c02ebd506422873f6a"
@@ -6357,12 +6615,14 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
 util.promisify@~1.0.0:
-  version "1.0.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/util.promisify/-/util.promisify-1.0.0.tgz#440f7165a459c9a16dc145eb8e72f35687097030"
-  integrity sha1-RA9xZaRZyaFtwUXrjnLzVocJcDA=
+  version "1.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/util.promisify/-/util.promisify-1.0.1.tgz#6baf7774b80eeb0f7520d8b81d07982a59abbaee"
+  integrity sha1-a693dLgO6w91INi4HQeYKlmruu4=
   dependencies:
-    define-properties "^1.1.2"
-    object.getownpropertydescriptors "^2.0.3"
+    define-properties "^1.1.3"
+    es-abstract "^1.17.2"
+    has-symbols "^1.0.1"
+    object.getownpropertydescriptors "^2.1.0"
 
 utils-merge@1.0.1:
   version "1.0.1"
@@ -6370,9 +6630,9 @@ utils-merge@1.0.1:
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
 uuid@^3.0.1, uuid@^3.3.2:
-  version "3.3.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
-  integrity sha1-RWjwIW54dg7h2/Ok0s9T4iQRKGY=
+  version "3.4.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
@@ -6388,9 +6648,9 @@ vary@~1.1.2:
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
 vendors@^1.0.0:
-  version "1.0.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/vendors/-/vendors-1.0.3.tgz#a6467781abd366217c050f8202e7e50cc9eef8c0"
-  integrity sha1-pkZ3gavTZiF8BQ+CAuflDMnu+MA=
+  version "1.0.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
+  integrity sha1-4rgApT56Kbk1BsPPQRANFsTErY4=
 
 verror@1.10.0:
   version "1.10.0"
@@ -6436,15 +6696,17 @@ which@^1.2.9, which@^1.3.1:
   dependencies:
     isexe "^2.0.0"
 
+wide-align@^1.1.0:
+  version "1.1.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wide-align/-/wide-align-1.1.3.tgz#ae074e6bdc0c14a431e804e624549c633b000457"
+  integrity sha1-rgdOa9wMFKQx6ATmJFScYzsABFc=
+  dependencies:
+    string-width "^1.0.2 || 2"
+
 wordwrap@0.0.2:
   version "0.0.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
   integrity sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8=
-
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
 
 worker-rpc@^0.1.0:
   version "0.1.1"
@@ -6479,6 +6741,11 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+
+yallist@^3.0.0, yallist@^3.0.3:
+  version "3.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
+  integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
 
 yamljs@^0.2.1:
   version "0.2.10"
